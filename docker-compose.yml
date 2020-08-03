@@ -3,6 +3,7 @@ version: '3'
 services:
   db:
     image: mariadb
+    container_name: nextcloud-db
     command: --transaction-isolation=READ-COMMITTED --binlog-format=ROW
     restart: always
     volumes:
@@ -12,6 +13,7 @@ services:
 
   app:
     image: nextcloud:apache
+    container_name: nextcloud-app
     restart: always
     ports:
       - 8080:80
