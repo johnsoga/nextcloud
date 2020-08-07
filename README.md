@@ -42,3 +42,11 @@ After filling in the configuration environment variable file its time to build t
 ```
 docker-compose up -d
 ```
+
+## Update/Upgrade
+Upgrading when using docker-compose is sinmple
+
+```
+docker-compose pull
+docker-compose up -d
+```
