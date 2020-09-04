@@ -1,0 +1,4 @@
+[Nextcloud]
+title=Nextcloud
+description=OpenSource self-hosted file hosting platform from https://nextcloud.com/
+ports=8080
